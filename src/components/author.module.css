@@ -1,0 +1,36 @@
+.author {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-md) 0;
+  gap: var(--spacing-lg);
+}
+
+.figure {
+  width: 100px;
+  height: 100px;
+  flex-shrink:0;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.imagePlaceholder {
+  width: 100%;
+  height: 100%;
+  background-color: #ddd;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}

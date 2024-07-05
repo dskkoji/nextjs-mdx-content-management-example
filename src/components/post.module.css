@@ -1,0 +1,25 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--spacing-md) 0;
+  gap: var(--spacing-sm);
+}
+
+.postTitle {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--spafing-md);
+}
+
+.draft {
+  font-size: 0.6em;
+  padding: 0 var(--spacing-sm);
+  border-radius: var(--spacing-sm);
+  background: #faa;
+}
+
+.footerText {
+  display: flex;
+  gap: var(--spacing-md);
+}
